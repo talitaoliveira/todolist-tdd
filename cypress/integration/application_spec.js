@@ -36,7 +36,7 @@ describe('Application Test', () => {
     });
 
     it('Should button has a name "Submit"', () => {
-      cy.get('button[id=submit-task]').should('contain', 'barosch')
+      cy.get('button[id=submit-task]').should('contain', 'Submit')
     });
 
     it('Should click at the button', () => {
